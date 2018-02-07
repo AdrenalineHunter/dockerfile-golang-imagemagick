@@ -3,7 +3,7 @@ FROM golang:1.9
 
 # Install image magick
 ENV MAGICK_URL "http://imagemagick.org/download/releases"
-ENV MAGICK_VERSION 6.9.9-33
+ENV MAGICK_VERSION 6.9.9-34
 
 RUN apt-get update -y \
   && apt-get install -y --no-install-recommends \
